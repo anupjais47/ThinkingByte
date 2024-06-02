@@ -1,0 +1,4 @@
+./Mask.exe : Mask.o
+	gcc Mask.o -o Mask.exe
+Mask.o : Mask.c
+	gcc -c Mask.c

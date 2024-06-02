@@ -1,0 +1,5 @@
+./All_Bit.exe : All_Bit.o
+	gcc All_Bit.o -o All_Bit.exe
+All_Bit.o : All_Bit.c
+	gcc -c All_Bit.c
+

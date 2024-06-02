@@ -1,0 +1,136 @@
+/* Purpose:-Maximum And Minimum Number is 5 numbers
+	Author:-Anup jaiswal
+	Date of creation:-03/APR/2019
+	Date of modification:-
+*/
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,e,max,min;
+	printf("Enete Five Numbers:");
+	scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+	if(a>b)
+		{
+			if(a>c)
+				{
+					if(a>d)
+						{
+							if(a>e)
+								{
+									max=a;
+									min=e;
+								}
+							else
+								{
+									max=e;
+									min=a;
+								}
+						}
+					else
+						{
+							if(d>e)
+								{
+									max=d;
+									min=e;
+								}
+							else
+								{
+									max=e;
+									min=d;
+								}
+						}
+				}
+			else
+				{
+					if(c>d)
+						{
+							if(c>e)
+								{
+									max=c;
+									min=e;
+								}
+							else
+								{
+									max=e;
+									min=c;
+								}
+						}
+					else
+						{
+							if(d>e)
+								{
+									max=d;
+									min=e;
+								}
+							else
+								{
+									max=e;
+									min=d;
+								}
+						}
+				}	
+		}
+	else
+		{
+			if(b>c)
+				{
+					if(b>d)
+						{
+							if(b>e)
+								{
+									max=b;
+									min=e;
+								}
+							else
+								{
+									max=e;
+									min=b;
+								}
+						}
+					else
+						{
+							if(d>e)
+								{
+									max=d;
+									min=e;
+								}
+							else
+								{
+									max=e;
+									min=d;
+								}
+						}
+				}
+			else
+				{
+					if(c>d)
+						{
+							if(c>e)
+								{
+									max=c;
+									min=e;
+								}
+							else
+								{
+									max=e;
+									min=c;
+								}
+						}
+					else
+						{
+							if(d>e)
+								{
+									max=d;
+									min=e;
+								}
+							else
+								{
+									max=e;
+									min=d;
+								}
+						}
+				}	
+		}
+	printf("Maximum = %d \t Minimum = %d \n",max,min);
+	return 0;
+}
