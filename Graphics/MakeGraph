@@ -1,0 +1,4 @@
+./Images.exe : Images.o
+	gcc Images.o -o Images.exe
+Images.o : Images.c
+	gcc -c Images.c

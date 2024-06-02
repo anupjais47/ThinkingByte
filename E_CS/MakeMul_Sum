@@ -1,0 +1,4 @@
+./Macro_Mul_Sum.exe : Macro_Mul_Sum.o
+	gcc Macro_Mul_Sum.o -o Macro_Mul_Sum.exe
+Macro_Mul_Sum.o : Macro_Mul_Sum.c
+	gcc -c Macro_Mul_Sum.c

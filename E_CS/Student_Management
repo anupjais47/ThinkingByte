@@ -1,0 +1,77 @@
+// Sparsh Matrix in array.c
+Boolean InsertInSM(SMatrixType *sm,DataType data,int row,int col)
+{
+	int i;
+	BooleanType flag=true;
+	SElementType s_ele;
+	element.data=data;
+	s_ele.row=row;
+	s_ele.col=col;
+	s_ele.data=data;
+	for(i=sm->length; i>0; i--)
+	{
+		if(sm->elements[i-1].row>row)
+		{
+			sm->elements[i]=sm->element[i-1];
+		}
+		else if(sm->elements[i-1].row==row && sm->elements[i-1].col>col)
+		{
+			sm->elements[i]=sm->element[i-1];
+		}
+		else if(sm->elements[i-1].row==row && sm->elements[i-1].col==col)
+		{
+			flag=false;
+			break;
+		}
+		else
+		{
+			break;
+		}
+		i--;
+	}
+	if(flag==true)
+	{
+		sm->element[i]=element;
+		sm->length++;
+	}
+	return flag;
+}
+/*Purpose : To Create an Empty Sparse matrix
+Pre Cond : none
+Input : none
+Output : sparse matrix(s_matrix)
+Post Cond :none
+*/
+SMatrixType Create Matrix()
+{
+	SMatrixType sm;
+	sm.length=0;
+	return sm;
+}
+
+//Sparse Matrix in main.c
+case 2://Insert Menu
+				cls();
+				//countI=1;
+				if(!created)
+				{
+					NotCreated();
+				}
+				else
+				{
+					int row,col,data;
+					printf("\n Enter row col and data : ");
+					scanf("%d%d%d",&row,&col,&data);
+					flag=InsertInSM(&sm,data,row,col);
+					if(flag)
+					{
+					
+					}
+					else
+					{
+						printf("\n Index is Occupied. \n");
+					}
+				}
+				break;
+// Sorry yaar My code is not in Running Mode so I cann't share with you my whole code please understand .
+// Actually It's fully correct code in you code which is sent by you.

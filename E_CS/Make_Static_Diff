@@ -1,0 +1,4 @@
+./Static_Diff.exe : Static_Diff.o
+	gcc Static_Diff.o -o Static_Diff.exe
+Static_Diff.o : Static_Diff.c
+	gcc -c Static_Diff.c

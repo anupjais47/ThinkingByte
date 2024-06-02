@@ -1,0 +1,10 @@
+import java.io.*;
+public class Octal{
+	public static void main(string[] arg)
+	int x=0101;
+	System.out.println(x);
+	int y=0b101;
+	System.out.println(y);
+
+
+}
