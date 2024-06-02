@@ -1,0 +1,27 @@
+Purpose : To Create an Empty Sparse matrix
+Pre Cond : none
+Input : none
+Output : sparse matrix(s_matrix)
+Post Cond :none
+ 
+ 
+Purpose : To an Element at specified index(row,col)
+Pre Cond : SM is created and not full
+Input : SM(SMatrix), data(DataType),int row,int col
+Output : SM,Status(Boolean)
+			is inserted status = TRUE otherwise FALSE
+Post Cond : data is inserted at index row and col and length is increased by 1
+
+printf("\n Enter row col and data : ");
+					scanf("%d%d%d",&row,&col,&data);
+					flag=InsertInSM(&sm,data,row,col);
+					if(flag)
+					{
+					
+					}
+					else
+					{
+						printf("\n\a Index is Occupied. \n");
+					}
+					printf("The Srudents Are...\n");
+					DisplayArray(array);

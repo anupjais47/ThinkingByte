@@ -1,0 +1,6 @@
+./main.exe	: main.o Singly.o
+	gcc main.o Singly.o -o main.exe
+main.o	: main.c Singly.h
+	gcc -c main.c
+Singly.o	: Singly.c Singly.h
+	gcc -c Singly.c

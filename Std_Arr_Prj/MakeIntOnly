@@ -1,0 +1,6 @@
+./IntOnly.exe : IntOnly.o
+	gcc IntOnly.o -o IntOnly.exe
+main.o : main.c
+	gcc -c main.c
+IntOnly.o : IntOnly.c
+	gcc -c IntOnly.c
