@@ -1,0 +1,39 @@
+1. Introduction
+	In "Kisan Samman Bazar(किसान सममान बाजार)", we are creating a space where farmers could list their products, items which may be home grown, ground planted, handmade arts/craft in easy way.
+    
+    (i) Purpose of this document
+        We are trying to understand the complete scenarios about "Product listing to Product selling".
+        
+    (ii) Scope of this document
+    
+    	The scope is only into our product at this time but may be in future at many palaces..
+    	    
+    (iii) Overview
+    	
+    	Our product will help farmers, costumers and bussiness men at realtime selling and buying with one-another without any difficulty.
+
+2. General description
+    As we know the loving farmers works hard in their farms and fields for different type crops or farmming but, earns not so as their hard works even close to their work or expances so, me and my team decided to do somthing for the farmers for their actual worth for them where a farmer/normal human being could their products with prize tag and meta data(usable discription of the particular product) and sells their products in live open market at anywhere(Locally) and any time without any types of budden to farmers, costumers or bussiness men.
+    We provide facility for farmers, consumers and bussiness men for relibility of product and resposible for the buyed/ordered product.
+     
+3. Functional Requirements
+	Profile Creation
+		For farmers :
+		
+		    Create a profile for his/her where could be flaxible : "While product listing" or "primerly signed".
+		    Requirement : Adhar Card, Types of farmming, Contact number, email_id, live selfie and area of their field, if owned/lise.
+		
+		For Costumer/Buyer:
+			 Create a profile for his/her where could be flaxible : "While product buying" or "primerly signed".
+		    Requirement : Contact number, email_id.
+	
+	Suggetion(buyers/bussiness men)
+	Notification(Saller/Buyer)
+	Feed(Buyer)
+		
+4. Design Constraints
+	Although the disign will constant because of similar because of falexibility to our "product".
+
+
+the project is being under the guidance of Er. Vikash Kumar, Er. Krinshna Kishor Kumar, College teachers and seniors, classmates😊️😊️😊️
+	

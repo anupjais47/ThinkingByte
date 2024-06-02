@@ -1,0 +1,27 @@
+Step 1: Include the JavaScript SDK on your page once, ideally right after the opening body tag.
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce="6Cp0x3GA"></script>
+
+Step 2: Place this code wherever you want the plugin to appear on your page.
+
+<div class="fb-post" data-href="https://www.facebook.com/ak47anup/posts/339681090540253" data-show-text="true" data-width=""><blockquote cite="https://www.facebook.com/ak47anup/posts/339681090540253" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/ak47anup">Anup Kumar</a> on&nbsp;<a href="https://www.facebook.com/ak47anup/posts/339681090540253">Thursday, 20 August 2020</a></blockquote></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Place this code wherever you want the plugin to appear on your page.
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fak47anup%2Fposts%2F339681090540253&show_text=true&width=552&height=212&appId" width="552" height="212" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
