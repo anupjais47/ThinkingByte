@@ -1,0 +1,24 @@
+/*
+	Name of Author		:- 
+	Date of Creation	:-
+	Date of Modification	:-
+	Regards			:-
+	Source of Modification	:-
+	
+	ADT for DELETE
+	
+	Purpose		:- To Delete an existing element from an array.
+	Pre-Condition	:- Element is exist.
+	Input		:- array(ArrayType), index(int)
+	Output		:- array(ArrayType)
+	Post-Condition	:- Element is deleted from array and length is decreaseed by 1.
+
+
+ADT for DELETE
+	
+	Purpose		:- To Delete an existing element from an array.
+	Pre-Condition	:- Array is created and not empty.
+	Input		:- array(ArrayType), key(KeyType)
+	Output		:- status(Boolean),array(ArrayType)
+	Post-Condition	:- Element is deleted from array and length is decreaseed by 1.
+	*/

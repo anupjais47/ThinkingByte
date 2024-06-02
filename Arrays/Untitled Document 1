@@ -1,0 +1,23 @@
+#include<stdio.h>
+//#include<ctype.h>
+#define SIZE 100
+int main()
+{
+	int i=0,flag=0,rev;
+	char arr[SIZE],arr2[SIZE];
+	printf("Enter an string :- ");
+	scanf("%[^\n]s",arr);
+	while(arr[i]!='\0')
+		{
+			arr2[i]=arr[i];
+			i++;
+		}
+	while(arr[i]!='\0')
+		{
+			rev=arr[i];
+			arr[1]=Arr2[i];
+			arr2[i]=rev;
+		}
+	printf
+	return 0;
+}

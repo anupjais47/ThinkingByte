@@ -1,0 +1,4 @@
+./ArrayTrial.exe : ArrayTrial.o
+	gcc ArrayTrial.o -o ArrayTrial.exe
+ArrayTrial.o : ArrayTrial.c
+	gcc -c ArrayTrial.c
